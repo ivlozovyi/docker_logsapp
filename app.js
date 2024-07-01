@@ -25,4 +25,6 @@ app.post('/', async (req, res) => {
   res.redirect('/')
 })
 
+console.log('Hello docker')
+
 app.listen(port, () => console.log(`Server listening on port ${port}`))
